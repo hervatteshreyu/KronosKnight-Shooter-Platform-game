@@ -1,3 +1,6 @@
+Start button
+Respawn
 Arm Pivot
 Asset changes
 Double jump + dash
+Exit UI
