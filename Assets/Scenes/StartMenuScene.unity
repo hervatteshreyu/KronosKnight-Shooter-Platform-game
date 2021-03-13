@@ -1200,7 +1200,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BACK
+  m_text: EXIT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: be4bacbbfeb3c8c4e98f95e4ebf2eed8, type: 2}
   m_sharedMaterial: {fileID: -807878899046083558, guid: be4bacbbfeb3c8c4e98f95e4ebf2eed8,
@@ -1291,7 +1291,7 @@ GameObject:
   - component: {fileID: 999930606}
   - component: {fileID: 999930605}
   m_Layer: 5
-  m_Name: BackButton
+  m_Name: ExitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
