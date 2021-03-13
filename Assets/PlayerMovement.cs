@@ -12,6 +12,11 @@ public class PlayerMovement : MonoBehaviour
     const float k_GroundedRadius = .02f;
     private bool m_Grounded;
     public Animator animator;
+    public bool dead = false;
+    public bool respawn = true;
+    public GameObject impactEffect;
+    public int lives = 3;
+
 
     public float runSpeed = 40f;
     float horizontalMove = 0f;
@@ -24,6 +29,28 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (dead == true)
+        {
+            if(respawn == true)
+            {
+                lives--;
+                if (lives == 0)
+                {
+                    respawn = false;
+                }
+                GameObject x = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
+                Destroy(gameObject, gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
+                Destroy(x, x.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+            else
+            {
+                GameObject x = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
+                Destroy(gameObject, gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
+                Destroy(x, x.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
+                SceneManager.LoadScene(0);
+            }
+        }
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         animator.SetFloat("speed",Mathf.Abs(horizontalMove));
         if (Input.GetButtonDown("Fire1"))

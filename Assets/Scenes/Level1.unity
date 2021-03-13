@@ -4413,6 +4413,9 @@ MonoBehaviour:
     m_Bits: 512
   m_GroundCheck: {fileID: 1702621914}
   animator: {fileID: 1388848126}
+  dead: 0
+  respawn: 1
+  impactEffect: {fileID: 0}
   runSpeed: 7
   gun_equipped: 0
 --- !u!95 &1388848126

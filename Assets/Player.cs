@@ -17,9 +17,7 @@ public class Player : MonoBehaviour
         Debug.Log(collision.gameObject.name);
         if (collision.gameObject.name == "enemy(Clone)")
         {
-            GameObject x = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
-            Destroy(self_transform.gameObject);
-            Destroy(x, x.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
+            self_transform.gameObject.GetComponent<PlayerMovement>().dead = true;
         }
     }
     // Update is called once per frame
@@ -28,9 +26,7 @@ public class Player : MonoBehaviour
         Debug.Log(collision.gameObject.name);
         if (collision.gameObject.name == "enemy")
         {
-            GameObject x = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
-            Destroy(gameObject);
-            Destroy(x, x.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
+            self_transform.gameObject.GetComponent<PlayerMovement>().dead = true;
         }
     }
 }

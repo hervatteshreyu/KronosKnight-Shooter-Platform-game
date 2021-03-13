@@ -13,6 +13,14 @@ public class Enemy : MonoBehaviour
     {
         rb.velocity = -1 * transform.right * speed;
     }
+    void Update()
+    {
+        if (transform.position.x < -1.0f)
+        {
+            Destroy(gameObject);
+        }
+
+    }
 
     // Update is called once per frame
     private void OnTriggerEnter2D(Collider2D collision)
