@@ -861,7 +861,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Contra Militia
+  m_text: Khronos knight
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: be4bacbbfeb3c8c4e98f95e4ebf2eed8, type: 2}
   m_sharedMaterial: {fileID: -807878899046083558, guid: be4bacbbfeb3c8c4e98f95e4ebf2eed8,
