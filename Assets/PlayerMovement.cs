@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     int jump_cnt = 0;
     bool jump = false;
     bool crouch = false;
-    public bool gun_equipped = false;
+    public bool gun_equipped = true;
 
     // Update is called once per frame
     void Update()

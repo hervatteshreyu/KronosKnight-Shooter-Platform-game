@@ -4415,7 +4415,9 @@ MonoBehaviour:
   animator: {fileID: 1388848126}
   dead: 0
   respawn: 1
-  impactEffect: {fileID: 0}
+  impactEffect: {fileID: 8566349366190161081, guid: 97483a00d559c7b42a1441068f3ceb11,
+    type: 3}
+  lives: 3
   runSpeed: 7
   gun_equipped: 0
 --- !u!95 &1388848126
@@ -4964,6 +4966,7 @@ MonoBehaviour:
   textBox: {fileID: 1652107050}
   enemyPrefab: {fileID: 2751304114489798895, guid: 7cbf6adc683f33046a8a0feb35947bb5,
     type: 3}
+  activeEnemy: {fileID: 0}
   spawn_point: {fileID: 1229307073}
 --- !u!1 &1652239148
 GameObject:
