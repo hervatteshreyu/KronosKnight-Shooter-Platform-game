@@ -26,6 +26,10 @@ public class PlayerMovement : MonoBehaviour
     bool crouch = false;
     public bool gun_equipped = true;
 
+    private void Start()
+    {
+        animator.SetBool("isGun", true);
+    }
     // Update is called once per frame
     void Update()
     {
@@ -58,19 +62,6 @@ public class PlayerMovement : MonoBehaviour
         }
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         animator.SetFloat("speed",Mathf.Abs(horizontalMove));
-        if (Input.GetButtonDown("Fire1"))
-        {
-            if (gun_equipped) {
-                gun_equipped = false;
-                animator.SetBool("isGun", false);
-            }
-            else
-            {
-                gun_equipped = true;
-                animator.SetBool("isGun", true);
-            }
-            
-        }
         if (Input.GetButtonDown("Cancel"))
         {
             SceneManager.LoadScene(0);

@@ -11,8 +11,7 @@ public class Weapon : MonoBehaviour
     void Update()
     {
         GameObject player = GameObject.Find("Player");
-        bool isGunEquipped= player.GetComponent<PlayerMovement>().gun_equipped;
-        if (Input.GetButtonDown("Fire2") && isGunEquipped)
+        if (Input.GetButtonDown("Fire2"))
         {
             Shoot();
         }
