@@ -297,9 +297,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 86.2016, y: 212.54005}
-  m_SizeDelta: {x: 222.72388, y: 101}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 3.800003, y: 216}
+  m_SizeDelta: {x: 0, y: 101}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &394534221
 MonoBehaviour:
@@ -861,7 +861,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Khronos knight
+  m_text: Kronos knight
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: be4bacbbfeb3c8c4e98f95e4ebf2eed8, type: 2}
   m_sharedMaterial: {fileID: -807878899046083558, guid: be4bacbbfeb3c8c4e98f95e4ebf2eed8,
@@ -1120,13 +1120,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1d7f7c53aa1a71d439c3fd05ac8a4d29, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6f7ded37fb1cd374986312a5f9ff5b16, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

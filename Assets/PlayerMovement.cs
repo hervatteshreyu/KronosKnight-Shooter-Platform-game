@@ -51,6 +51,11 @@ public class PlayerMovement : MonoBehaviour
                 SceneManager.LoadScene(0);
             }
         }
+        //Fall to death
+        if(transform.position.y <= -1.0f)
+        {
+            dead = true;
+        }
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         animator.SetFloat("speed",Mathf.Abs(horizontalMove));
         if (Input.GetButtonDown("Fire1"))
@@ -70,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
         {
             SceneManager.LoadScene(0);
         }
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") || Input.GetKeyDown("space"))
         {
             jump_cnt++;
             jump = true;

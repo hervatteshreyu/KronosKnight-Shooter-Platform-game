@@ -4414,10 +4414,10 @@ MonoBehaviour:
   m_GroundCheck: {fileID: 1702621914}
   animator: {fileID: 1388848126}
   dead: 0
-  respawn: 1
+  respawn: 0
   impactEffect: {fileID: 8566349366190161081, guid: 97483a00d559c7b42a1441068f3ceb11,
     type: 3}
-  lives: 3
+  lives: 0
   runSpeed: 7
   gun_equipped: 0
 --- !u!95 &1388848126
