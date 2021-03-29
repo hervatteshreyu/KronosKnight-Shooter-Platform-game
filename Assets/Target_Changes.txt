@@ -1,6 +1,7 @@
-Start button
-Respawn
+Level design
+Boss enemy
+Health
+Enemies that shoot
+Dash
 Arm Pivot
 Asset changes
-Double jump + dash
-Exit UI
