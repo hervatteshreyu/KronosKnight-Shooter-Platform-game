@@ -35,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (dead == true)
         {
+
             if(respawn == true)
             {
                 lives--;
@@ -56,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
         //Fall to death
-        if(transform.position.y <= -1.0f)
+        if(transform.position.y <= -2.0f)
         {
             dead = true;
         }

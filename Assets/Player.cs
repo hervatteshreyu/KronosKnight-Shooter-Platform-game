@@ -14,8 +14,8 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log(collision.gameObject.name);
-        if (collision.gameObject.name == "enemy(Clone)")
+        //Debug.Log(collision.gameObject.name);
+        if (collision.gameObject.name == "Enemy")
         {
             self_transform.gameObject.GetComponent<PlayerMovement>().dead = true;
         }
@@ -23,8 +23,8 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log(collision.gameObject.name);
-        if (collision.gameObject.name == "enemy")
+        //Debug.Log(collision.gameObject.name);
+        if (collision.gameObject.name == "enemy" || collision.gameObject.name.Contains("Bullet_enemy"))
         {
             self_transform.gameObject.GetComponent<PlayerMovement>().dead = true;
         }
