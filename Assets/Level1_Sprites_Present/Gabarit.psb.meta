@@ -462,14 +462,14 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 30
     mosaicPosition: {x: 0, y: 0}
   - name: CASKS
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 148
     mosaicPosition: {x: 0, y: 0}
   - name: CASK 3
@@ -483,7 +483,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 307
     mosaicPosition: {x: 0, y: 0}
   - name: HEAD
@@ -497,7 +497,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 103
     mosaicPosition: {x: 0, y: 0}
   - name: SHOULDER 3
@@ -511,7 +511,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 210
     mosaicPosition: {x: 0, y: 0}
   - name: HAND LEFT 1
@@ -525,7 +525,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 303
     mosaicPosition: {x: 0, y: 0}
   - name: ARM LEFT
@@ -539,7 +539,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 186
     mosaicPosition: {x: 0, y: 0}
   - name: NECK 3
@@ -553,7 +553,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 309
     mosaicPosition: {x: 0, y: 0}
   - name: BODY 2
@@ -567,7 +567,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 301
     mosaicPosition: {x: 0, y: 0}
   - name: BASSIN 3
@@ -581,7 +581,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 15
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 314
     mosaicPosition: {x: 0, y: 0}
   - name: FOOT LEFT 2
@@ -595,7 +595,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 312
     mosaicPosition: {x: 0, y: 0}
   - name: LEG LEFT 1
@@ -609,7 +609,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 316
     mosaicPosition: {x: 0, y: 0}
   - name: FOOT RIGHT 2
@@ -623,7 +623,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 318
     mosaicPosition: {x: 0, y: 0}
   - name: LEG RIGHT 1
@@ -637,7 +637,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 100
     mosaicPosition: {x: 0, y: 0}
   - name: SWORD
@@ -651,7 +651,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 182
     mosaicPosition: {x: 0, y: 0}
   - name: HAND RIGHT
@@ -665,7 +665,7 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
-    spriteID: 
+    spriteID: 00000000000000000000000000000000
     layerID: 305
     mosaicPosition: {x: 0, y: 0}
   - name: ARM RIGHT
