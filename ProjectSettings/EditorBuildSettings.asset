@@ -26,4 +26,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PastDoneCutscene.unity
     guid: b8142d92f0bf1e84693a80261d9f45d1
+  - enabled: 1
+    path: Assets/Scenes/FutureSceneBoss.unity
+    guid: d42c5479116388d4d94c4caf8248afac
+  - enabled: 1
+    path: Assets/Scenes/FutureScene.unity
+    guid: b98e0c4ac3468f747937e1d11f913e08
+  - enabled: 1
+    path: Assets/Scenes/FutureDoneCutscene.unity
+    guid: d413d58663d3ca64ab759410ca500b2f
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 8c82798cbe1bfe745b6df23a747d67ae
   m_configObjects: {}
