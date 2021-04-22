@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 236, y: -48}
+  m_AnchoredPosition: {x: 251, y: -43}
   m_SizeDelta: {x: 4000, y: 2000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &730162382584189811
@@ -78,7 +78,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: don't mess with lord kronos again, you vile beast!
+  m_Text: "don't mess with lord kronos again, you vile beast! \nNow, I'm off to the
+    future"
 --- !u!114 &730162382584189809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104,7 +105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 730162383126236567}
   m_Layer: 5
-  m_Name: speech_bubble_4 1
+  m_Name: speech_bubble_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -156,8 +157,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730162384268026876}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 212, y: 11, z: 0}
-  m_LocalScale: {x: 90, y: 50, z: 1.6710184}
+  m_LocalPosition: {x: 218, y: -10, z: 0}
+  m_LocalScale: {x: 90, y: 60.12, z: 1.6710184}
   m_Children: []
   m_Father: {fileID: 730162383126236567}
   m_RootOrder: 0

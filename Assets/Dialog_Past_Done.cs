@@ -33,6 +33,7 @@ public class Dialog_Past_Done : MonoBehaviour
         pastPower = Instantiate(pastPower);
         Rigidbody2D rb = pastPower.GetComponent<Rigidbody2D>();
         rb.velocity = new Vector2(rb.velocity.x-2f, rb.velocity.y);
-        //SceneManager.LoadScene("PastScene");
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene("FutureScene");
     }
 }

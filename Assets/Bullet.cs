@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     public Rigidbody2D rb;
     public GameObject impactEffect;
     public bool isPlayer;
+    public bool isBossFuture;
     private Vector3 startingPosition;
     void Start()
     {
@@ -26,6 +27,10 @@ public class Bullet : MonoBehaviour
                 rb.velocity = mousePosition * speed;
             else
                 Destroy(gameObject);
+        }
+        else if (isBossFuture)
+        {
+
         }
         else
         {
