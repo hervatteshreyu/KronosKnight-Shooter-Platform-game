@@ -16,6 +16,8 @@ public class CameraFollow : MonoBehaviour
     private Vector3 smoothPos;
     public float smoothSpeed = 0.5f;
 
+    public float cameraRatioFactor = 5.4f;
+
     private void Start()
     {
         xMin = mapBounds.bounds.min.x;
@@ -24,7 +26,7 @@ public class CameraFollow : MonoBehaviour
         yMax = mapBounds.bounds.max.y;
         mainCam = GetComponent<Camera>();
         camOrthsize = mainCam.orthographicSize;
-        cameraRatio = (xMax + camOrthsize) / 5.4f;
+        cameraRatio = (xMax + camOrthsize) / cameraRatioFactor;
     }
     // Update is called once per frame
     void FixedUpdate()
