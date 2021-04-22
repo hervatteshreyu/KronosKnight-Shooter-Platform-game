@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 8188459}
-  health: 1000
+  health: 500
   bulletDamage: 20
   impactEffect: {fileID: 2781749177195015732, guid: e11ac7573320db64394737be4345a592,
     type: 3}
