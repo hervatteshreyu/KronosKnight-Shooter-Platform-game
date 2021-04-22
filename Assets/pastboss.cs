@@ -40,7 +40,7 @@ public class pastboss : MonoBehaviour
             GameObject x = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
             Destroy(gameObject, gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
             Destroy(x, x.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
-            //SceneManager.LoadScene(0);
+            SceneManager.LoadScene("PastDoneCutscene");
         }
         switch (eCurState)
         {

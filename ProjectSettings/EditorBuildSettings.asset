@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PastSceneBoss.unity
     guid: 9dd64c8b909c60b45800956b84d2a253
+  - enabled: 1
+    path: Assets/Scenes/StoryStartCutscene.unity
+    guid: 71a3572b88f791e40bedb98b84506c26
+  - enabled: 1
+    path: Assets/Scenes/PastDoneCutscene.unity
+    guid: b8142d92f0bf1e84693a80261d9f45d1
   m_configObjects: {}
